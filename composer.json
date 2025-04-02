@@ -1,0 +1,13 @@
+{
+    "name": "guido-warken/buscador-cursos-alura",
+    "description": "Buscador que busca os cursos da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Guido Warken",
+            "email": "guido.warken@gmail.com"
+        }
+    ],
+    "license": "GPL-2.0-only",
+    "require": {}
+}
