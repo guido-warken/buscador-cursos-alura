@@ -33,11 +33,12 @@ class Buscador
 
         $cursos = $this->crawler->filter('span.card-curso__nome');
 
-        $cursos = [];
+        $nomesCursos = [];
+
         foreach ($cursos as $curso) {
-            $cursos[] = $curso->textContent;
+            $nomesCursos[] = $curso->textContent;
         }
 
-        return $cursos;
+        return $nomesCursos;
     }
 }
