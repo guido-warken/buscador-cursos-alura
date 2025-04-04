@@ -7,8 +7,6 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Buscador
 {
-
-
     /**
      * @var Client
      */
