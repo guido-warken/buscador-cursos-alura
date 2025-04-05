@@ -30,7 +30,7 @@ class TestBuscadorDeCursos extends TestCase
         $stream = $this->createMock(StreamInterface::class);
         $stream
             ->expects($this->once())
-            ->method('getContents')  // Alterado de __toString para getContents
+            ->method('__toString')  // Alterado de __toString para getContents
             ->willReturn($html);
 
         $response = $this->createMock(ResponseInterface::class);
