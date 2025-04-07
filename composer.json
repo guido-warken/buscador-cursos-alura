@@ -14,7 +14,23 @@
         "symfony/dom-crawler": "^7.2",
         "symfony/css-selector": "^7.2"
     },
-"autoload": {
+    "scripts": {
+        "test": "phpunit tests/TestBuscadorDeCursos.php",
+        "cs": "phpcs --standard=PSR12 src/",
+        "phan": "phan --allow-polyfill-parser",
+        "check": [
+            "@phan",
+            "@cs",
+            "@test"
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Executa os testes unitários do projeto com a ferramenta php unit",
+        "cs": "Aponta erros no padrão de estilo de código, usando o php cs",
+        "phan": "Apontam erros de código de acordo com a linguagem usando o phan",
+        "check": "Executa os scripts para verificar erros no código com phan, erros no estilo com php cs e testes unitários com php unit"
+    },
+    "autoload": {
     "psr-4": {
         "Alura\\BuscadorDeCursos\\": "src/"
     }

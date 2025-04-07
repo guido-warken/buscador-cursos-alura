@@ -25,7 +25,6 @@ class Buscador
     public function buscar(string $url): array
     {
         $resposta = $this->cliente->request('GET', $url);
-
         $html = $resposta->getBody();
         $this->crawler->addHtmlContent($html);
 
