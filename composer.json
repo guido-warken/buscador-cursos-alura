@@ -18,6 +18,8 @@
         "test": "phpunit tests/TestBuscadorDeCursos.php",
         "cs": "phpcs --standard=PSR12 src/",
         "phan": "phan --allow-polyfill-parser",
+        "ls": "dir",
+        "exibe-cursos": "Alura\\BuscadorDeCursos\\Buscador::exibeCursos",
         "check": [
             "@phan",
             "@cs",

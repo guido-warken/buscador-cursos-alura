@@ -38,4 +38,9 @@ class Buscador
 
         return $nomesCursos;
     }
+
+    public static function exibeCursos(): void
+    {
+        echo 'Cursos exibidos com sucesso';
+    }
 }
