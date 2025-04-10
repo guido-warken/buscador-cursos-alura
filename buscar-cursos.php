@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 
 <?php
+echo __DIR__;
+exit(0);
 
 require __DIR__ . '/vendor/autoload.php';
 
