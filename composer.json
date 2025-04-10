@@ -9,6 +9,7 @@
         }
     ],
     "license": "GPL-2.0-only",
+    "bin": "buscar-cursos.php",
     "require": {
         "guzzlehttp/guzzle": "^7.8",
         "symfony/dom-crawler": "^7.2",

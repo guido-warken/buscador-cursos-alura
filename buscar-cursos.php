@@ -1,3 +1,5 @@
+#!/bin/bash/env php
+
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
