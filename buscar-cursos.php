@@ -2,7 +2,7 @@
 
 <?php
 
-require __DIR__ . '../../autoload.php';
+require __DIR__ . '/../../autoload.php';
 
 use Alura\BuscadorDeCursos\Buscador;
 use GuzzleHttp\Client;
